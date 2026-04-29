@@ -53,3 +53,333 @@ DEBUG - 2026-04-29 06:30:55 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2026-04-29 06:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-04-29 06:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-04-29 06:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 13:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 06:48:25 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Decrypting: authentication failed.
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 142.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 SYSTEMPATH\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('Xßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ', Object(SensitiveParameterValue))
+ 3 APPPATH\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('Ã}ñ\'°2Ê¼ù²|\\l2aÀì³ØØ7	_Õ„ê ê/Ž§~©2Ú©R¿Þ°\'ð²¼¤àËïÓaãÌbSÃúXßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\siamang_new\\public\\index.php')
+CRITICAL - 2026-04-29 06:48:25 --> ErrorException: Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\siamang_new\system\Format\JSONFormatter.php:47
+Stack trace:
+#0 C:\siamang_new\system\Format\JSONFormatter.php(47): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\siamang_new\system\API\ResponseTrait.php(352): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\siamang_new\system\API\ResponseTrait.php(111): CodeIgniter\Debug\ExceptionHandler->format(Array)
+#3 C:\siamang_new\system\Debug\ExceptionHandler.php(95): CodeIgniter\Debug\ExceptionHandler->respond(Array, 500)
+#4 C:\siamang_new\system\Debug\Exceptions.php(151): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Encryption\Exceptions\EncryptionException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Encryption\Exceptions\EncryptionException))
+#6 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Encryption\Exceptions\EncryptionException
+Decrypting: authentication failed.
+#0 C:\siamang_new\system\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\siamang_new\system\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('X\xDF\x8Dsz\t\x87\xD0\xC6\x01\x19\xD9\x19\x00\xD7...', Object(SensitiveParameterValue))
+#2 C:\siamang_new\app\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('\xC3}\xF1'\x1C\xB02\xCA\xBC\xF9\xB2|\\l2...')
+#3 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+#4 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#7 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#10 {main}
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Format\JSONFormatter.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-04-29 06:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 06:48:30 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Decrypting: authentication failed.
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 142.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 SYSTEMPATH\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('Xßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ', Object(SensitiveParameterValue))
+ 3 APPPATH\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('Ã}ñ\'°2Ê¼ù²|\\l2aÀì³ØØ7	_Õ„ê ê/Ž§~©2Ú©R¿Þ°\'ð²¼¤àËïÓaãÌbSÃúXßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\siamang_new\\public\\index.php')
+CRITICAL - 2026-04-29 06:48:30 --> ErrorException: Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\siamang_new\system\Format\JSONFormatter.php:47
+Stack trace:
+#0 C:\siamang_new\system\Format\JSONFormatter.php(47): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\siamang_new\system\API\ResponseTrait.php(352): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\siamang_new\system\API\ResponseTrait.php(111): CodeIgniter\Debug\ExceptionHandler->format(Array)
+#3 C:\siamang_new\system\Debug\ExceptionHandler.php(95): CodeIgniter\Debug\ExceptionHandler->respond(Array, 500)
+#4 C:\siamang_new\system\Debug\Exceptions.php(151): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Encryption\Exceptions\EncryptionException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Encryption\Exceptions\EncryptionException))
+#6 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Encryption\Exceptions\EncryptionException
+Decrypting: authentication failed.
+#0 C:\siamang_new\system\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\siamang_new\system\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('X\xDF\x8Dsz\t\x87\xD0\xC6\x01\x19\xD9\x19\x00\xD7...', Object(SensitiveParameterValue))
+#2 C:\siamang_new\app\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('\xC3}\xF1'\x1C\xB02\xCA\xBC\xF9\xB2|\\l2...')
+#3 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+#4 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#7 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#10 {main}
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Format\JSONFormatter.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-04-29 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 06:48:37 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Decrypting: authentication failed.
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 142.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 SYSTEMPATH\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('Xßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ', Object(SensitiveParameterValue))
+ 3 APPPATH\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('Ã}ñ\'°2Ê¼ù²|\\l2aÀì³ØØ7	_Õ„ê ê/Ž§~©2Ú©R¿Þ°\'ð²¼¤àËïÓaãÌbSÃúXßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\siamang_new\\public\\index.php')
+CRITICAL - 2026-04-29 06:48:37 --> ErrorException: Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\siamang_new\system\Format\JSONFormatter.php:47
+Stack trace:
+#0 C:\siamang_new\system\Format\JSONFormatter.php(47): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\siamang_new\system\API\ResponseTrait.php(352): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\siamang_new\system\API\ResponseTrait.php(111): CodeIgniter\Debug\ExceptionHandler->format(Array)
+#3 C:\siamang_new\system\Debug\ExceptionHandler.php(95): CodeIgniter\Debug\ExceptionHandler->respond(Array, 500)
+#4 C:\siamang_new\system\Debug\Exceptions.php(151): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Encryption\Exceptions\EncryptionException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Encryption\Exceptions\EncryptionException))
+#6 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Encryption\Exceptions\EncryptionException
+Decrypting: authentication failed.
+#0 C:\siamang_new\system\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\siamang_new\system\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('X\xDF\x8Dsz\t\x87\xD0\xC6\x01\x19\xD9\x19\x00\xD7...', Object(SensitiveParameterValue))
+#2 C:\siamang_new\app\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('\xC3}\xF1'\x1C\xB02\xCA\xBC\xF9\xB2|\\l2...')
+#3 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+#4 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#7 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#10 {main}
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Format\JSONFormatter.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-04-29 06:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 06:48:59 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Decrypting: authentication failed.
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 142.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 SYSTEMPATH\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('Xßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ', Object(SensitiveParameterValue))
+ 3 APPPATH\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('Ã}ñ\'°2Ê¼ù²|\\l2aÀì³ØØ7	_Õ„ê ê/Ž§~©2Ú©R¿Þ°\'ð²¼¤àËïÓaãÌbSÃúXßsz	‡ÐÆÙ' . "\0" . '×:»7tŽ')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\siamang_new\\public\\index.php')
+CRITICAL - 2026-04-29 06:48:59 --> ErrorException: Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\siamang_new\system\Format\JSONFormatter.php:47
+Stack trace:
+#0 C:\siamang_new\system\Format\JSONFormatter.php(47): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\siamang_new\system\API\ResponseTrait.php(352): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\siamang_new\system\API\ResponseTrait.php(111): CodeIgniter\Debug\ExceptionHandler->format(Array)
+#3 C:\siamang_new\system\Debug\ExceptionHandler.php(95): CodeIgniter\Debug\ExceptionHandler->respond(Array, 500)
+#4 C:\siamang_new\system\Debug\Exceptions.php(151): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Encryption\Exceptions\EncryptionException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Encryption\Exceptions\EncryptionException))
+#6 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Encryption\Exceptions\EncryptionException
+Decrypting: authentication failed.
+#0 C:\siamang_new\system\Encryption\Handlers\OpenSSLHandler.php(142): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\siamang_new\system\Encryption\KeyRotationDecorator.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('X\xDF\x8Dsz\t\x87\xD0\xC6\x01\x19\xD9\x19\x00\xD7...', Object(SensitiveParameterValue))
+#2 C:\siamang_new\app\Controllers\Login.php(60): CodeIgniter\Encryption\KeyRotationDecorator->decrypt('\xC3}\xF1'\x1C\xB02\xCA\xBC\xF9\xB2|\\l2...')
+#3 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\Login->cekUser()
+#4 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#7 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#8 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#9 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#10 {main}
+[Method: POST, Route: login/cekUser]
+in SYSTEMPATH\Format\JSONFormatter.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-04-29 06:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-29 06:54:22 --> Email: sendWithMail threw ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\siamang_new\system\Email\Email.php:1771
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\siamang_new\\...', 1771)
+#1 C:\siamang_new\system\Email\Email.php(1771): mail('asal', '=?UTF-8?Q?Penda...', 'This is a multi...', 'Date: Wed, 29 A...')
+#2 C:\siamang_new\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\siamang_new\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\siamang_new\app\Controllers\DataPendaftaran.php(113): CodeIgniter\Email\Email->send()
+#5 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\DataPendaftaran->index()
+#6 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+#7 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#12 {main}
+ERROR - 2026-04-29 06:54:22 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-04-29 06:54:22 --> 
+DEBUG - 2026-04-29 06:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-29 06:54:37 --> Email: sendWithMail threw ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\siamang_new\system\Email\Email.php:1771
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\siamang_new\\...', 1771)
+#1 C:\siamang_new\system\Email\Email.php(1771): mail('asal', '=?UTF-8?Q?Penda...', 'This is a multi...', 'Date: Wed, 29 A...')
+#2 C:\siamang_new\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\siamang_new\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\siamang_new\app\Controllers\DataPendaftaran.php(113): CodeIgniter\Email\Email->send()
+#5 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\DataPendaftaran->index()
+#6 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+#7 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#12 {main}
+ERROR - 2026-04-29 06:54:37 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-04-29 06:54:37 --> 
+DEBUG - 2026-04-29 06:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-29 06:54:50 --> Email: sendWithMail threw ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\siamang_new\system\Email\Email.php:1771
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\siamang_new\\...', 1771)
+#1 C:\siamang_new\system\Email\Email.php(1771): mail('asal', '=?UTF-8?Q?Penda...', 'This is a multi...', 'Date: Wed, 29 A...')
+#2 C:\siamang_new\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\siamang_new\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\siamang_new\app\Controllers\DataPendaftaran.php(113): CodeIgniter\Email\Email->send()
+#5 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\DataPendaftaran->index()
+#6 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+#7 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#12 {main}
+ERROR - 2026-04-29 06:54:50 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-04-29 06:54:50 --> 
+DEBUG - 2026-04-29 06:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-29 06:55:00 --> Email: sendWithMail threw ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\siamang_new\system\Email\Email.php:1771
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\siamang_new\\...', 1771)
+#1 C:\siamang_new\system\Email\Email.php(1771): mail('asal', '=?UTF-8?Q?Penda...', 'This is a multi...', 'Date: Wed, 29 A...')
+#2 C:\siamang_new\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\siamang_new\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\siamang_new\app\Controllers\DataPendaftaran.php(113): CodeIgniter\Email\Email->send()
+#5 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\DataPendaftaran->index()
+#6 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+#7 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#12 {main}
+ERROR - 2026-04-29 06:55:00 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-04-29 06:55:00 --> 
+DEBUG - 2026-04-29 06:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-29 06:55:08 --> Email: sendWithMail threw ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\siamang_new\system\Email\Email.php:1771
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\siamang_new\\...', 1771)
+#1 C:\siamang_new\system\Email\Email.php(1771): mail('asal', '=?UTF-8?Q?Penda...', 'This is a multi...', 'Date: Wed, 29 A...')
+#2 C:\siamang_new\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\siamang_new\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\siamang_new\app\Controllers\DataPendaftaran.php(113): CodeIgniter\Email\Email->send()
+#5 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\DataPendaftaran->index()
+#6 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+#7 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#12 {main}
+ERROR - 2026-04-29 06:55:08 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-04-29 06:55:08 --> 
+DEBUG - 2026-04-29 06:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 06:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-29 06:55:24 --> Email: sendWithMail threw ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\siamang_new\system\Email\Email.php:1771
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\siamang_new\\...', 1771)
+#1 C:\siamang_new\system\Email\Email.php(1771): mail('asal', '=?UTF-8?Q?Penda...', 'This is a multi...', 'Date: Wed, 29 A...')
+#2 C:\siamang_new\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\siamang_new\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\siamang_new\app\Controllers\DataPendaftaran.php(113): CodeIgniter\Email\Email->send()
+#5 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\DataPendaftaran->index()
+#6 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+#7 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#12 {main}
+ERROR - 2026-04-29 06:55:24 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-04-29 06:55:24 --> 
+DEBUG - 2026-04-29 06:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-29 06:55:27 --> Email: sendWithMail threw ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\siamang_new\system\Email\Email.php:1771
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\siamang_new\\...', 1771)
+#1 C:\siamang_new\system\Email\Email.php(1771): mail('asal', '=?UTF-8?Q?Penda...', 'This is a multi...', 'Date: Wed, 29 A...')
+#2 C:\siamang_new\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\siamang_new\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\siamang_new\app\Controllers\DataPendaftaran.php(113): CodeIgniter\Email\Email->send()
+#5 C:\siamang_new\system\CodeIgniter.php(951): App\Controllers\DataPendaftaran->index()
+#6 C:\siamang_new\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendaftaran))
+#7 C:\siamang_new\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\siamang_new\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#9 C:\siamang_new\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\siamang_new\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\siamang_new\system\rewrite.php(44): require_once('C:\\siamang_new\\...')
+#12 {main}
+ERROR - 2026-04-29 06:55:27 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2026-04-29 06:55:27 --> 
+DEBUG - 2026-04-29 06:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -31,5 +31,20 @@ $routes->get('resetpass', 'ResetPass::index');
 
 $routes->get('dashboard', 'Dashboard::index');
 $routes->get('databidang', 'DataBidang::index');
+$routes->get('datapendaftaran', 'Datapendaftaran::index');
+$routes->get('dashboard/logout', 'Dashboard::logout');
+
+
+$routes->post('datapendaftaran/ajaxDataPendaftaran', 'Datapendaftaran::ajaxDataPendaftaran');
 $routes->post('databidang/ajaxDataBidang', 'DataBidang::ajaxDataBidang');
+$routes->post('informasi/ajaxInformasi', 'Informasi::ajaxInformasi');
+
+$routes->get('informasi', 'Informasi::index');
+
+
+$routes->get('datanilai', 'Datanilai::index');
+$routes->post('dataNilai/ajaxDataNilai', 'Datanilai::ajaxDataNilai');
+
+
+
 
